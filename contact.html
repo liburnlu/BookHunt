@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookHunt</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="images/iconn.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+
+<div class="hero">
+    <header>
+        <div class="header-container">
+            <div class="text"><a href="index.html">BookHunt</a></div>
+            <nav class="topnav" id="myTopnav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="search.html" class="nav-link">Search</a>
+                <a href="contact.html" class="active nav-link">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </nav>
+        </div>
+    </header>
+</div>
+
+    <main class="contact-page">
+        <section class="contact-info">
+            <div class="info-container">
+                <h2>Get in Touch</h2>
+                <ul>
+                    <li>
+                        <img src="images/address.svg">
+                        <div class="contact-text">
+                        <h3>Address</h3>
+                        <p>123 Book St, Library City, BK 45678</p>
+                    </div>
+                    </li>
+                    <li>
+                        <img src="images/telephone.svg">
+                        <div class="contact-text">
+                        <h3>Phone</h3>
+                        <p>(+123) 456-7890</p>
+                    </div>
+                    </li>
+                    <li>
+                        
+                        <img src="images/email.svg">
+                        <div class="contact-text">
+                        <h3>Email</h3>
+                        <p>info@bookhunt.com</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <div class="form-container">
+                <h2>Contact Us</h2>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>BookHunt</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="search.html">Search for books</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                       
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>&copy; 2024 BookHunt. All rights reserved.</h4>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+   <script src="app.js"></script>
+</body>
+</html>
